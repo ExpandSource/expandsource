@@ -1,0 +1,34 @@
+.DS_Store
+.env
+.env.local
+*.log
+.local.*
+.local/*
+local/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+
+# Node (향후 Vue.js 도입 시)
+node_modules/
+dist/
+.nuxt/
+
+# Python (로컬 개발 서버)
+__pycache__/
+*.pyc
+
+# 기타 로컬 파일
+local/
+temp/
+*.tmp
+
+CLAUDE.md
+.claude/**
+local.*
